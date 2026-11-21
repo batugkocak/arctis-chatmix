@@ -1,8 +1,17 @@
 using System;
 using System.IO;
+using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Threading;
 using Microsoft.Win32.SafeHandles;
+
+[assembly: AssemblyTitle("Arctis ChatMix")]
+[assembly: AssemblyProduct("Arctis ChatMix")]
+[assembly: AssemblyDescription("Arctis 7X+ ChatMix dial support for SteelSeries Sonar")]
+[assembly: AssemblyCompany("batugkocak")]
+[assembly: AssemblyCopyright("Copyright (c) 2026 batugkocak. MIT License.")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.0.0")]
 
 static class Hid
 {
